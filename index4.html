@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Câu 4</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.all{
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fist{
+    padding: 100px 50px;
+   font-family: "Be Vietnam Pro", sans-serif;
+   display: flex;
+   border-radius: 20px;
+   background-color: #EFF1FF;
+   align-items: center;
+   justify-content: space-between;
+   position: relative;
+
+}
+.fist::before{
+    content: "";
+    background-image: url(/dots.svg);
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.fist .second .title{
+    font-size: 40px;
+    color: black;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.fist .second .sub-title{
+    background-color: #E8DFFC;
+    color: #B966E7;
+    border-radius: 45px;
+    font-weight: 500;
+    font-size: 14px;
+    align-items: center;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.fist .second .small-title{
+    color: #6B7395;
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 0;
+    position: relative;
+
+}
+.fist .form{
+    border-radius: 4px;
+    border: 1px solid white;
+    background: white;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+}
+.fist .form input{
+    flex: 1;
+    background: white;
+    padding: 0 10px;
+    outline: none;
+    border: 0;
+    font-size: 14px;
+    color: #757575;
+    border-radius: 10px;
+
+    height: 50px;
+}
+.fist .form button{
+    background-color: #bd58f3;
+    padding: 0 20px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 50px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.fist .form button:hover{
+    background-color: #A04ECD;
+}
+.fist .form button{
+    margin-left: 5px;
+}
+
+</style>
+<body>
+    <h2>Caau 4: Newletter (Form đăng ký nhận tin)</h2>
+    <p><strong>Yêu cầu</strong>: Sử dụng HTML và CSS để tạo khối bên dưới</p>
+ <div class="all">
+    <div class="fist">
+        <div class="second">
+            <div class="sub-title">
+                GET LATEST HISDUTY UPDATE
+            </div>
+                <h2 class="title">
+                        Subscribe Our Newsletter
+                </h2>
+                <p class="small-title">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                </p>  
+        </div>
+        <form action="https://www.facebook.com/be.khang.1610092/" class="form" target="_blank">
+            <input type="text" name="email" id="email" placeholder="Enter Your E-Email">
+            <button>Subscribe <i class="fa-solid fa-arrow-right"></i></button>
+        </form>
+    </div>
+ </div>   
+</body>
+</html>
